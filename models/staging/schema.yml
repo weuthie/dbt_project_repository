@@ -22,6 +22,10 @@ models:
 sources:
   - name: staging
     database: chinook 
-    schema: staging  
+    schema: public 
     tables:
       - name: tracks
+      - name: artists
+      - name: albums
+      - name: invoices
+      - name: invoice_items
