@@ -5,7 +5,7 @@
           target_schema='snapshots',
           strategy='check',
           unique_key='ArtistId',
-          check_cols=['Name'],
+          check_cols= 'all',
         )
     }}
 
